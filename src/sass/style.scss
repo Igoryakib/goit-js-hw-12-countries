@@ -1,0 +1,85 @@
+@import 'reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap');
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(158, 149, 160, 0.541);
+}
+
+.section__searchCountry {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.section__title {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-shadow: -1px 3px 6px rgba(62, 14, 73, 1);
+}
+
+.searchCountryInput {
+    padding: 10px 100px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 35px;
+    -webkit-box-shadow: 0px 5px 42px 2px rgba(17, 90, 159, 0.2) inset;
+-moz-box-shadow: 0px 5px 42px 2px rgba(17, 90, 159, 0.2) inset;
+box-shadow: 0px 5px 42px 2px rgba(17, 90, 159, 0.2) inset;
+}
+
+.section__wrapper__cards {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.section__card {
+    width: 450px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    -webkit-box-shadow: 0px 5px 10px 2px rgba(19, 22, 24, 0.78);
+-moz-box-shadow: 0px 5px 10px 2px rgba(19, 22, 24, 0.78);
+box-shadow: 0px 5px 10px 2px rgba(19, 22, 24, 0.78);
+}
+
+.card__wrapper__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__title {
+    font-family: 'Azeret Mono', monospace;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-shadow: -1px 3px 6px rgba(62, 14, 73, 1);
+}
+
+.card__subtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card__text {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.card__text:last-child {
+    margin-bottom: 0;
+}
+
+.card__img {
+    width: 250px;
+    height: auto;
+}
