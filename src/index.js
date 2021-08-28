@@ -5,6 +5,9 @@ const debounce = require('lodash.debounce');
 const inputFormRef = document.querySelector('.searchCountryInput');
 
 const inputFn = () => {
+        if (inputFormRef.value === '') {
+            return;
+        }
        fetchCountries(inputFormRef.value).then(functions.verifyDataLength);
  };
 
